@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+
+.pai{
+    background: #EEEE;
+    height: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+
+.pai div {
+    width: 100%;
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pai  div a{
+    text-decoration: none;
+    color:red;
+    font-size: 4rem;
+}
