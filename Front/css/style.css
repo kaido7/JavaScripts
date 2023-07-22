@@ -3,25 +3,20 @@ body{
 }
 
 
-.pai{
-    background: #EEEE;
-    height: 900px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-
-}
-
-.pai div {
-    width: 100%;
-    background:black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pai  div a{
+a{
+    border-radius: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    background: black;
+    list-style: none;
     text-decoration: none;
-    color:red;
-    font-size: 4rem;
+    font-size: 1rem;
+}
+
+
+.sta{
+    background: red;
+    width: 80%;
+    height: 200px;
+    margin: auto auto;   
 }

@@ -1,10 +1,10 @@
-var a = 10;
-let b = 12;
-const c= 20;
 
 
+var items_1 = "Arroz";
+var items_2 = "Feijão";
+var items_3 = "Macarrão";
+var items_4 = "Salada";
 
-document
-    .getElementById("text")
-    .innerHTML="Meu primeiro <B> JavaScripts </b> "
-    ;
+const lista = ["Arroz", "Feijão",  "Macarrão", "Salada"];
+lista.unshift("Carne", "Mamão")
+console.log(lista);
