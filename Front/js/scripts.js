@@ -1,3 +1,8 @@
-for (let i = 0; i < 999; i++){
-    document.getElementById('text').innerHTML += i + '<br>'
+
+
+function ativarContagem(){
+    document.getElementById('tempo').innerHTML = 'Começou'
+    setTimeout(function(){
+        document.getElementById('tempo').innerHTML = 'Executado o tempo'
+    }, 5000);
 }
