@@ -10,11 +10,11 @@ function ativarContagem(){
     
     // }, 5000);
 
-    setInterval(function(){
+    set = setInterval(function(){
         var tmp = document.getElementById('tempo').innerHTML;
         var soma = parseInt(tmp) + 1;
         document.getElementById('tempo').innerHTML = soma;
-    }, 1000
+    }, 100
     );
 
 }
@@ -22,7 +22,8 @@ function ativarContagem(){
 
 
 function pararContagem(){
-    clearTimeout(tempo);
-    document.getElementById('tempo').innerHTML = 'Parou a Contagem';
+    clearInterval(set);
+    
+    // document.getElementById('tempo').innerHTML = 'Parou a Contagem';
 
 }
